@@ -1,0 +1,147 @@
+:root {
+    --back-gray: #edf0f6;
+    --text-gray: #a3a0a8;
+    --blue-face: #385185;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--back-gray);
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 350px;
+    height: auto;
+    background-color: #ffff;
+    border: 1px solid rgb(167, 166, 166);
+    border-radius:5px;
+    
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.container .title {
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Sansita Swashed', cursive, sans-serif;
+}
+.box-input {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+.box {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.box input {
+    width:100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius:5px;
+    background-color:none;
+}
+.box-input a {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #0095f6;
+    color:#ffff;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none; 
+}
+.line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top:15px;
+}
+.line-ou {
+    color: var(--text-gray);
+}
+.line-esq, .line-dir {
+    height: 1px;
+    width: 150px;
+    margin: 0px 10px;
+    background-color:var(--text-gray);
+}
+.icon-face{
+    display: inline-flex ;
+    margin-top: 25px;
+}
+.icon-face-a, .icon-face-a .face {
+    margin-left:10px;
+    color: var(--blue-face);
+}
+.icon-face img {
+    width:20px;
+}
+.esq-pass {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:60px;
+    margin:15px;
+    
+}
+.esq-pass a {
+    position: relative;
+    font-size: 16px;
+    left:15px;
+    color: var(--blue-face)
+}
+
+
+
+.container-2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container-2 a {
+    color: #0095f6;
+}
+h3 {
+    font-weight: normal;
+    margin-top: 25px;
+    text-align: center;
+}
+.section-1 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+}
+.app img {
+    padding:10px;
+    width:140px;
+}
